@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="164dp"
+        android:layout_height="169dp"
+        android:src="@drawable/nome"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="-36dp" />
+
+    <ImageView
+        android:layout_width="61dp"
+        android:layout_height="101dp"
+        android:src="@drawable/estrelinha"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <ImageView
+        android:layout_width="1021dp"
+        android:layout_height="1577dp"
+        android:src="@drawable/flores"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-208dp"
+        tools:layout_editor_absoluteY="-400dp" />
+
+    <ImageView
+        android:layout_width="1169dp"
+        android:layout_height="1402dp"
+        android:src="@drawable/flores2"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="-179dp"
+        tools:layout_editor_absoluteY="-687dp" />
+
+    <ImageView
+        android:layout_width="258dp"
+        android:layout_height="437dp"
+        android:src="@drawable/moldura"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="199dp"
+        android:layout_height="288dp"
+        android:src="@drawable/kirbyperfil"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="
+                      Nome: Kirby\n
+                      Idade: 31\n"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <TextView
+        android:layout_width="235dp"
+        android:layout_height="116dp"
+        android:text="A minha principal habilidade é aspirar tudo e todos ao meu redor. Após aspirar, eu posso ativar a capacidade de copiar ou cuspir o que foi aspirado em forma deestrela, ataque conhecido como Star Spit."
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obs: não sou um pokémon!"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="99dp"
+        android:src="@drawable/sugando"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="470dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Editar perfil"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
